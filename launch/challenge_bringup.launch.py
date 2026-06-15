@@ -11,7 +11,7 @@ def generate_launch_description():
         [
             get_package_share_directory('challenge_bringup'),
             'config',
-            'tracker_orange.yaml',
+            'tracker.yaml',
         ]
     )
 
