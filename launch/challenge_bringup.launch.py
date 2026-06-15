@@ -33,15 +33,15 @@ def generate_launch_description():
             DeclareLaunchArgument(
                 'threaded',
                 default_value='false',
-                description='Whether to use the threaded version \
-                             of the node',
+                description='Whether to use the threaded version ' +
+                            'of the node',
             ),
             DeclareLaunchArgument(
                 'color',
                 default_value='yellow',
-                description='Color name for object detection: \
-                             yellow, red_lower, red_upper, \
-                             orange, green, blue',
+                description='Color name for object detection: ' +
+                            'yellow, red_lower, red_upper, ' +
+                            'orange, green, blue',
                 choices=[
                     'yellow',
                     'red_lower',
